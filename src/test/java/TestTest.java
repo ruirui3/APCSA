@@ -1,16 +1,15 @@
-package com.mycompany.app;
 
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
 
-public class AppTest {
-    public AppTest() {
+public class TestTest {
+    public TestTest() {
     }
 
     @Test
-    public void testApp() {
+    public void testTest() {
         assertTrue(true);
     }
 
