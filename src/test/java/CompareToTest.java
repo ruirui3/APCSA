@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class CompareToTest {
     @Test
-    public void main(String[] args) {
+    public void compareToTest5() {
         String a = "gene";
         String b = "deter";
         String c = "remedy";
