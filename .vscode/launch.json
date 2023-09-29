@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "U2_L8_Activity_One",
+            "request": "launch",
+            "mainClass": "Unit2.U2_L8_Activity_One",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "U2_L7_Activity_Two",
             "request": "launch",
             "mainClass": "Unit2.U2_L7_Activity_Two",

@@ -1,16 +1,14 @@
-Debug the code provided in the starter file so it does the following:
+Write code that asks for a positive integer n, then prints 3 random integers from 2 to n+2 inclusive using Math.random().
 
-creates two Integer objects x and y, and initializes them as null
-prints the values of x and y (should result in the output "null null")
-sets x and y to inputs entered by the user
-finds the average of the two values and stores this in a Double value avg
-prints a sentence as shown in the sample run with the values of x, y and the average
-Hint - just as with Strings (see Unit 2: Lesson 1) we can explicitly assign any class-type variable as null just by typing = null
+Note #1: In the starter code for this exercise the line "import testing.Math;" appears. You should not remove this line from your code as it is required to correctly grade your code. Also make sure that your code outputs exactly 3 numbers (be particularly careful there aren't any extra numbers in your prompt for user input).
 
-Sample run:
+Note #2: Make sure your minimum output is 2 or more, and make sure your maximum output is only up to n + 2 (so if user inputs 5, the maximum output should only be 7).
 
-null null
-Enter values:
->5
->12
-Average of 5 and 12 is 8.5
+Hint: Knowing your PEMDAS will help a lot.
+
+Sample Run:
+Enter a positive integer:
+6
+7
+2
+5
