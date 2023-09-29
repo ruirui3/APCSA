@@ -1,14 +1,15 @@
-Write code that asks for a positive integer n, then prints 3 random integers from 2 to n+2 inclusive using Math.random().
+Write a program that calculates the slope between two coordinates: (x1, y1) and (x2, y2). The program should take four decimal inputs from the user, in the order of x1, x2, y1, y2. Then print the slope.
 
-Note #1: In the starter code for this exercise the line "import testing.Math;" appears. You should not remove this line from your code as it is required to correctly grade your code. Also make sure that your code outputs exactly 3 numbers (be particularly careful there aren't any extra numbers in your prompt for user input).
+Note: slope formula looks like this:
 
-Note #2: Make sure your minimum output is 2 or more, and make sure your maximum output is only up to n + 2 (so if user inputs 5, the maximum output should only be 7).
+Sample run:
 
-Hint: Knowing your PEMDAS will help a lot.
-
-Sample Run:
-Enter a positive integer:
-6
-7
-2
-5
+Enter the first x-coordinate:
+3.9
+Enter the second x-coordinate:
+5.1
+Enter the first y-coordinate:
+4.8
+Enter the second y-coordinate:
+1.2
+Slope: -3.0000000000000004
