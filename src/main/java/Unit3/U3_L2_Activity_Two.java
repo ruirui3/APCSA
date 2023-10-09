@@ -9,7 +9,7 @@ public class U3_L2_Activity_Two {
         double num1 = scanner.nextDouble();
         double num2 = scanner.nextDouble();
 
-        if (num1 > num2) {
+        if (num1 < num2) {
             System.out.println(num1);
         } else {
             System.out.println(num2);
