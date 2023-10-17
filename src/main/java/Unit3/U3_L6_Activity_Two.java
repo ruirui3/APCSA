@@ -12,7 +12,7 @@ public class U3_L6_Activity_Two
     int x = scan.nextInt();
     int y = scan.nextInt();
     
-    if(!(y>9) || (!(x<=2) && x*y>10))
+    if((y<=9) || ((x>2) && x*y>10))
       System.out.println("pass");
 
     scan.close();
