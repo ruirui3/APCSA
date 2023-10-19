@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Assignment3",
+            "request": "launch",
+            "mainClass": "Unit3.Assignment3",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "U3_L7_Activity_Two",
+            "request": "launch",
+            "mainClass": "Unit3.U3_L7_Activity_Two",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "U3_L6_Activity_One",
             "request": "launch",
             "mainClass": "Unit3.U3_L6_Activity_One",
