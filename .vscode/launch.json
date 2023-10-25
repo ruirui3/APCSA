@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "U4_L1_Activity_Three",
+            "request": "launch",
+            "mainClass": "Unit4.U4_L1_Activity_Three",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "U4_L1_Activity_Two",
+            "request": "launch",
+            "mainClass": "Unit4.U4_L1_Activity_Two",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
+            "name": "U4_L1_Activity_One",
+            "request": "launch",
+            "mainClass": "Unit4.U4_L1_Activity_One",
+            "projectName": "my-app"
+        },
+        {
+            "type": "java",
             "name": "Assignment3",
             "request": "launch",
             "mainClass": "Unit3.Assignment3",
