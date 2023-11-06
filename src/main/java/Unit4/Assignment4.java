@@ -14,9 +14,8 @@ public class Assignment4 {
 
         int vowelCount = 0;
         int repeatCount = 0;
-        for (int i = 1; i < string.length(); i++) {
+        for (int i = 0; i < string.length(); i++) {
             String letter = string.substring(i, i + 1);
-            String previousLetter = string.substring(i - 1, i);
             boolean isVowel = letter.equals("a") ||
                     letter.equals("e") ||
                     letter.equals("i") ||
@@ -24,9 +23,9 @@ public class Assignment4 {
                     letter.equals("o") ||
                     letter.equals("u");
 
-            if (!previousLetter.equals(" ") && isVowel)
+            if (i != 0 && !string.substring(i - 1, i).equals(" ") && isVowel)
                 vowelCount++;
-            else if (previousLetter.equals(letter))
+            else if (i != 0 && string.substring(i - 1, i).equals(letter))
                 repeatCount++;
             else
                 alg1String += letter;
