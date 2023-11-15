@@ -334,3 +334,6 @@ ASALocalRun/
 *.DS_Store
 
 target
+
+# not needed
+CurrentAssignmentDetails.md
