@@ -3,10 +3,10 @@ package Unit5;
 // Have to get rid of package statement
 
 public class Person {
-    String firstName;
-    String lastName;
-    int age;
-    String ssn;
+    private String firstName;
+    private String lastName;
+    private int age;
+    private String ssn;
 
     public Person(String firstName, String lastName, int age, String ssn) {
         this.firstName = firstName;
