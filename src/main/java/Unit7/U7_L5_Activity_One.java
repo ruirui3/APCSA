@@ -4,7 +4,7 @@ package Unit7;
 
 public class U7_L5_Activity_One {
     public static void sortAndPrintReverse(String[] arr) {
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length - 1; i++) {
             int high = i;
             for (int j = i + 1; j < arr.length; j++) {
                 if (arr[j].compareTo(arr[high]) > 0) {
